@@ -2,19 +2,41 @@
 <html>
 <head>
     <title>Presentacion</title>
+    <link rel="icon" href="img/icon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-    <h1>Hola mundo, soy Juanfi</h1>
-    <p>Bienvenido a una de mis primeras paginas web</p>
-    <hr>
+        <div class="container">
+            <a href="#" class="logo">Hola mundo</a>
+            <nav id="nav" class="container">
+                <div class="nav-links">
+                    <a href="#sobreMi">Sobre mi</a>
+                    <a href="#intereses">Intereses</a>
+                    <a href="#objetivos">objetivos</a>
+                    <a href="#peliculas">Pelis</a>
+                    <a href="#juegos">Juegos</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <a href="#nav" class="menu"><img src="img/menu.ico"></a>
+                <a href="#" class="close"><img src="img/close.ico"></a>
+            </nav>
+        </div>
     </header>
-    <section>
+
+    <section id="hero">
+            <h1>Hola mundo, soy Juanfi</h1>
+            <p>Bienvenido a una de mis primeras paginas web</p>
+    </section>
+
+    <section id="sobreMi">
         <h2>Sobre mi</h2>
         <p>Naci en Venezuela el 13 de Marzo del 2005, con 14 años me mude a Buenos Aires en busca de no volver a ver al socialismo. Siempre me gustaron las computadoras asi que decidi que en el futuro haria algo relacionado con ellas y aqui estoy, aprendiendo desarrollo web porque hay que trabajar para comer.</p>
         <p>Esta es una foto del pais en el que naci.</p>
         <img src="img/venezuela.svg.png" alt="Venezuela" height="200">
-        <hr>
+    </section>
+     
+    <section id="intereses">
         <h2>Mis intereces</h2>
         <ul>
             <li>Los jueguitos.</li>
@@ -22,7 +44,9 @@
             <li>Llegar a ver el final de jujutsu.</li>
             <li>La plataaaaaaaaa (no tengo).</li>
         </ul>
-        <hr>
+        </section>
+
+    <section id="obejetivos">
         <h2>Mis objetivos</h2>
         <ol>
             <li>Aprender desarrollo web lo mas rapido posible para encontrar trabajo en algo que me guste.</li>
@@ -31,25 +55,32 @@
             <li>Hacerme millonario (o tener la suficiente plata para que la compra de dos empanadas y una gaseosa no represente el fin de mi estabilidad monetaria).</li>
             <li>Llegar a ver el final de jujutsu.</li>
         </ol>
-        <hr>
+    </section>
+
+    <section id="peliculas">
         <h2>Mis peliculas favoritas</h2>
         <ul>
             <li>Ratatouille</li>
             <li>No tengo mas.</li>
         </ul>
-        <hr>
+    </section>
+
+    <section id="juegos">
         <h2>Mis videojuegos favoritos</h2>
         <ol>
             <li>Assassins creed 2.</li>
             <li>Skyrim.</li>
             <li>GTA 4.</li>
         </ol>
-        <hr>
+    </section>
+
+    <section id="contact">
+
         <h2>Contactame.</h2>
         <p>Solo si crees que Assassins creed 2 no es el mejor juego del mundo y nos partimos la madre.</p>
         <a href="mailto:juan.fabian.arias@gmail.com">click aqui</a>
-        <hr>
     </section>
+
     <footer><p>© 2026 - Todos los derechos reservados al mejor desarrollador.</p></footer>
 </body>
 </html>

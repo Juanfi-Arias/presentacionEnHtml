@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav .container{
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+header nav{
+    padding: 40px 0;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, max-content);
+}
+
+.close img, .menu img{
+    width: 40px;
+}
+
+.close{
+    cursor: pointer;
+    grid-column: -2/-1;
+    grid-row: 1/2;
+    height: 20px;
+}
+
+.menu{
+    cursor: pointer;
+    grid-column: -2/-1;
+    grid-row: 1/2;
+}
+
+.nav-links{
+    display: none;
+}
+
+a .logo{
+    font-size: 3rem;
+    margin: 0 auto;
+    color:#FFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    color: #fff;
+    background-color: gray ;
+}
+
+#hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(img/hero.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
